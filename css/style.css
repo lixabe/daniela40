@@ -106,10 +106,19 @@ figure {
   z-index: 1001;
 }
 
-@media screen and (max-width: 768px) {
+
+
+@media screen and (max-width: 480px) {
   .fh5co-nav {
     padding: 20px 0;
-    margin-top: 50px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width : 375px) and (max-width: 768px) {
+  .fh5co-nav {
+    padding: 20px 0;
+    margin-top: 30px;
   }
 }
 
